@@ -19,7 +19,7 @@ module.exports = {
           //   }
           // }
           '/api': {
-            target: 'http://wlnav-dev.huolala.work:11010',
+            target: 'http://xxx-dev.domain.work:11010',
             ws: true,
             changeOrigin: true,
             pathRewrite: {
