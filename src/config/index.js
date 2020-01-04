@@ -15,10 +15,10 @@ module.exports = {
     sidebarLogo: false,
     baseUrl: {
       development: '', // 本地
-      dev: 'http://csc-dev.huolala.cn', // fab pack:csc-dev
-      stg: 'http://csc-stg.huolala.cn', // fab pack:csc-stg
-      gra: 'http://csc-gra.huolala.cn', // fab pack:csc-gra
-      prod: 'http://csc.huolala.cn/' // fab pack:csc-prod
+      dev: 'http://domain.cn', // fab pack:csc-dev
+      stg: 'http://domain.cn', // fab pack:csc-stg
+      gra: 'http://domain.cn', // fab pack:csc-gra
+      prod: 'http://domain.cn/' // fab pack:csc-prod
     },
     getBaseUrl() {
       // const API_URL = process.env.VUE_APP_API_URL || 'development'
